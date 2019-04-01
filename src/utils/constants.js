@@ -1,5 +1,5 @@
 let constants = {}
-constants.organization = 'poanetwork'
+constants.organization = 'makerdao'
 constants.repoName = 'poa-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
@@ -51,28 +51,14 @@ constants.navigationData = [
   }
 ]
 
-constants.SOKOL = 'sokol'
-constants.CORE = 'core'
-constants.DAI = 'dai'
+constants.MAKER = 'maker'
 
 constants.NETWORKS = {
   '77': {
-    NAME: 'Sokol',
-    RPC: 'https://sokol.poa.network',
-    BRANCH: constants.SOKOL,
+    NAME: 'Maker',
+    RPC: 'https://xdai-rpc.makerfoundation.com',
+    BRANCH: constants.MAKER,
     TESTNET: true
-  },
-  '99': {
-    NAME: 'Core',
-    RPC: 'https://core.poa.network',
-    BRANCH: constants.CORE,
-    TESTNET: false
-  },
-  '100': {
-    NAME: 'Dai',
-    RPC: 'https://dai.poa.network',
-    BRANCH: constants.DAI,
-    TESTNET: false
   }
 }
 
